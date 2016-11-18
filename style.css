@@ -1,0 +1,66 @@
+@keyframes pulse {
+  0% {
+      color: #001F3F;
+  }
+  100% {
+      color: #FF4136;
+  }
+}
+
+h1 {
+    font-size: 8vw;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: 'Lato', sans-serif;
+    animation: pulse 5s infinite alternate;
+}
+
+body {
+    font-size: 3vw;
+    padding: 2vw 6vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitle {
+    font-size: 2vw;
+    color: #888;
+    text-align: center;
+}
+
+.main {}
+
+.action {
+    font-size: 4vw;
+    border-width: 1vw;
+    border-color: purple;
+    border-style: solid;
+    border-radius: 4vw;
+    padding: 4vw;
+    margin: 1vw;
+}
+
+.dialogue {
+    padding: 2vw 0;
+}
+
+.dialogue-question {
+    padding-left: 2vw;
+    padding-right: 8vw;
+    font-weight: bold;
+}
+
+.dialogue-answer {
+    padding-left: 8vw;
+    padding-right: 2vw;
+    font-style: italic;
+}
+
+.farewell {
+    margin-top: 5vw;
+}
+
+.emoji {
+    margin: 4vw 0;
+    text-align: center;
+    font-size: 10vw;
+}
